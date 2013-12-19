@@ -16,5 +16,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-default[:ppt][:url] = "https://dl.dropboxusercontent.com/u/36379525/PowerPointViewer.exe"
-default[:ppt][:viewer] = "C:/Program Files (x86)/Microsoft Office/Office14/PPTVIEW.exe"
+default['ppt']['url'] = "https://dl.dropboxusercontent.com/u/36379525/PowerPointViewer.exe"
+default['ppt']['viewer'] = "C:/Program Files (x86)/Microsoft Office/Office14/PPTVIEW.exe"

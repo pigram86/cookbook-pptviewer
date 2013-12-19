@@ -18,11 +18,11 @@
 #
 # install powerpoint viewer
 windows_package "Powerpoint Viewer" do
-  source node[:ppt][:url]
+  source node['ppt']['url']
   options "/quiet"
   installer_type :custom
   action :install
-  not_if {::File.exists?(node[:ppt][:viewer])}
+  not_if {::File.exists?(node['ppt']['viewer'])}
   not_if {reboot_pending?}
 end
 
